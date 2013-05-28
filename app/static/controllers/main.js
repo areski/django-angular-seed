@@ -9,6 +9,9 @@ App.config(['$routeProvider', function($routeProvider) {
 }]);
 
 App.controller('MainCtrl', function($scope) {
+
+  $scope.format = 'M/d/yy h:mm:ss a';
+
   $scope.awesomeThings = [
     'HTML5 Boilerplate',
     'AngularJS',
